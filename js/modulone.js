@@ -281,20 +281,68 @@
 
 //??????????
 
-console.log(document);
+// console.log(document);
 
-const body = document.body;
-console.log(body);
+// const body = document.body;
+// console.log(body);
 
-const list = body.firstElementChild;
-console.log(list);
+// const list = body.firstElementChild;
+// console.log(list);
 
-const firstListItem = list.firstElementChild;
-console.log(firstListItem);
+// const firstListItem = list.firstElementChild;
+// console.log(firstListItem);
 
-const listItems = list.children;
-console.log(listItems);
+// const listItems = list.children;
+// console.log(listItems);
 
+//??????????
+
+// console.log('1');
+
+// setTimeout(() => {
+//     console.log('setTimeOut');
+// }, 0);
+
+// console.log('2');
+// console.log('3');
+// console.log('4');
+
+//??????????
+
+// function sumArray(array) {
+//     array = [1, 5, 8, 7, 1];
+//     console.log(array[2]);
+// }
+
+//?????????????????????
+
+// function feast(beast, dish) {
+//     return dish.startsWith(beast[0]) && dish.endsWith(beast[beast.length-1]);
+// };
+
+// feast("great blue heron", "garlic naan");
+
+//???????????????????????????
+
+// function getAge(inputString){
+//     inputString = '4 old';
+//     console.log(inputString[0]);
+//     let age = 0;
+//     return inputString[0] <= 9 && inputString[0] >= 0 ? age = Number(inputString[0]) : 'Opps';
+// }
+// getAge('4 old');
+
+//????????????????
+
+// function positiveSum(arr) {
+//     let sum = 0;
+//     arr.forEach(a => {
+//         a > 0 ? sum += a : 0;
+//         return sum;
+//     });
+// }
+
+//???????????????????
 
 
 
