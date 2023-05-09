@@ -344,7 +344,24 @@
 
 //???????????????????
 
+// const refs = {
+//     itemEl: '.item-grid-card',
+//     titleEl: '.item-grid-card__title',
+//     authorEl: '.item-grid-music-preview__author',
+//     audioEl: 'audio',
+// };
 
+// // const items = [...document.querySelectorAll(refs.itemEl)];
+
+// const itemObj = [...document.querySelectorAll(refs.itemEl)].map((item) => {
+//     return {
+//         title: item.querySelector(refs.titleEl).textContent.trim(),
+//         author: item.querySelector(refs.authorEl).textContent.trim(),
+//         audio: item.querySelector(refs.audioEl).src,
+//     }
+// });
+
+//?????????????????
 
 
 
