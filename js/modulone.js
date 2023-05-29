@@ -363,5 +363,20 @@
 
 //?????????????????
 
+// function reverseWords(str) {
+//     return str.split(" ").map(word => word.split("").reverse().join("")).join(" ");
+// };
 
+// console.log(reverseWords('The hello'));
+
+//?????????????????????/
+
+// function isIsogram(str){
+// const strArr = str.split('');
+// for(let i = 0; i <= strArr.length - 1; i +=1){
+//     return strArr[i] !== strArr[i += 1] ? false : true;
+// }
+// }
+
+// console.log(isIsogram('hi'));
 
